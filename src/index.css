@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --color-primary:#2563eb;
+  --color-secondary:#fbbf24;
+}
+
+*{
+  font-family: Outfit;
+}
+
+.font-playfair{
+  font-family: Playfair !important;
+}
+
+.headline{
+  font-size: 50px;
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #222;
+  margin-top: 10px;
+}
+.subline{
+  color: whitesmoke;
+  max-width: 600px;
+  font-size: 20px;
+    margin-top: 10px;
+}
